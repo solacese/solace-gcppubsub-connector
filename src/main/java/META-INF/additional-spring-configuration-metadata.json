@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "solace.connector.pubsub.sourcesubscriptionname",
+    "type": "java.lang.String",
+    "description": "Name of the GCP PubSub Subscription to consume messages to be sent to Solace"
+  },
+  {
+    "name": "solace.connector.solace.desttopicname",
+    "type": "java.lang.String",
+    "description": "Name of the Solace Topic where the Consumed messages from GCP PubSub will get published"
+  },
+  {
+    "name": "solace.connector.solace.sourcequeuename",
+    "type": "java.lang.String",
+    "description": "Name of the Solace Queue to consume messages that will get sent to GCP PubSub"
+  },
+  {
+    "name": "solace.connector.solace.basetopic",
+    "type": "java.lang.String",
+    "description": "Solace Base Topic to be removed from the messages that will get sent to GCP PubSub"
+  }
+]}
